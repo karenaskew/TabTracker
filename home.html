@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Tab Tracker</h1>
+    </header>
+        <h2 class="next_round">Next Round on: <span id="next_round_person">Whoever</span></h2>
+
+    <section class="section1">
+        <div class="round_container jay">
+            <h2 class="round_header">Jay's Rounds</h2>
+            <h3 class="round_counter" id="jay_rounds">0</h3>
+            <div class="inc_dec_buttons">
+                <button id="-jay">-</button>
+                <button id="+jay">+</button>
+            </div>
+        </div>
+
+        <div class="round_container karen">
+            <h2 class="round_header">Karen's Rounds</h2>
+            <h3 class="round_counter" id="karen_rounds">0</h3>
+            <div class="inc_dec_buttons">
+                <button id="-karen">-</button>
+                <button id="+karen">+</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h2 class="total_rounds">Total Rounds: <span id="total_rounds">0</span></h2>
+        <button id="reset_button">Reset</button>
+    </section> 
+    
+
+    
+
+
+
+    <script src="./home.js"></script>
+</body>
+</html>
